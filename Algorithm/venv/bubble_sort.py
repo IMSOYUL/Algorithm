@@ -3,7 +3,7 @@
 두 인접한 데이터를 비교해서, 앞에 있는 데이터가 뒤에 있는 데이터보다 크면, 자리를 바꾸는 정렬 알고리즘
 """
 
-def bubbleSort(list):
+def bubble_sort(list):
     for idx in range(len(list) - 1):
         print(idx)
         swap = False
@@ -23,5 +23,5 @@ import random
 data_list = random.sample(range(100), 50)
 data_list1 = [5,4,3,2,1]
 
-print (bubbleSort(data_list))
-print(bubbleSort(data_list1))
+print (bubble_sort(data_list))
+print(bubble_sort(data_list1))
