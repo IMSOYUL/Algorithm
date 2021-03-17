@@ -126,6 +126,7 @@ heap.insert(8)
 heap.insert(5)
 heap.insert(4)
 heap.insert(20)
+
 print(heap.heap_array)
 
 heap.pop()
